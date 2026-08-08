@@ -29,8 +29,8 @@ while True:
         position=position+1
         if position == reqposition:
             url=tag.get('href', None)
-            break
+            break            # for loop
 
     count=count+1
     if count == reqcount:
-        break
+        break                # while loop
